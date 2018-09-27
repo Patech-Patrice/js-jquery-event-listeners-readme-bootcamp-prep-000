@@ -12,6 +12,13 @@ function frameIt() {
     $('img').addClass("tasty");
   })
 }
+function pressIt() {
+  $('#typing').on("keydown", function(press) {
+    if (press.which === 71) {
+      alert("You have entered g.");
+    }
+  })
+}
 
 
 
